@@ -16,9 +16,9 @@ In order to avoid conflicts during git push
 1.2 Install deps from requirements.txt file
 
 2. Before commit
-2.1 run black tool
-2.2 rum flake8 tool
-2.3 run isort tool
+2.1 run black tool - https://black.readthedocs.io/en/stable/usage_and_configuration/index.html
+2.2 rum flake8 tool - https://flake8.pycqa.org/en/latest/index.html#quickstart
+2.3 run isort tool - https://pycqa.github.io/isort/index.html
 
 3. Run the tests
 1. Execute 'pytest . -s -v' command staying in the root of the framework
