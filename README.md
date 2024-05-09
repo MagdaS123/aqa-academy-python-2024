@@ -2,7 +2,7 @@
 
 # Coding rules
 
-# Excluded folders
+## Excluded folders
 
 1. .venv folder - this is my virtual enviroment, how to install: https://docs.python.org/3/library/venv.html
 2. Reports
@@ -10,11 +10,11 @@
 In order to avoid conflicts during git push
 
 
-# Dep updates
+## Dep updates
 
 1. major libs version needs to be revisited once per month
 
-# How to
+## How to
 
 1. Setup your env
     - create venv into .venv folder
@@ -29,7 +29,7 @@ In order to avoid conflicts during git push
     - Execute 'pytest . -s -v' command staying in the root of the framework
     - To form a report execute 'pytest . -s -v --html=reports/report.html --self-contained-html' command
 
-# Structure of the framework
+## Structure of the framework
 
 1. tests - folder for tests
 2. reports - folder to store local reports
