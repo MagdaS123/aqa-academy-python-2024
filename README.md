@@ -29,6 +29,10 @@ In order to avoid conflicts during git push
     - Execute 'pytest . -s -v' command staying in the root of the framework
     - To form a report execute 'pytest . -s -v --html=reports/report.html --self-contained-html' command
 
+4. UI tests
+    - library Selenium - https://www.selenium.dev/documentation/webdriver/getting_started/install_library/
+    - library Webdriver Manager - https://pypi.org/project/webdriver-manager/ 
+
 ## Structure of the framework
 
 1. tests - folder for tests
