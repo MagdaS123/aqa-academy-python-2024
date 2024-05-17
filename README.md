@@ -33,6 +33,9 @@ In order to avoid conflicts during git push
     - library Selenium - https://www.selenium.dev/documentation/webdriver/getting_started/install_library/
     - library Webdriver Manager - https://pypi.org/project/webdriver-manager/ 
 
+5. API tests
+    - library requests - https://requests.readthedocs.io/en/latest/
+
 ## Structure of the framework
 
 1. tests - folder for tests

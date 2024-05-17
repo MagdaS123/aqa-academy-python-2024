@@ -8,13 +8,16 @@ class LoginPage:
     PASSWORD_FLD = '//*[@id="password"]'
     SIGNIN_BTN = '//*[@id="login"]/div[4]/form/div/input[13]'
 
+    def __init__(self, app) -> None:
+        self.app = app
+    
     # user methods
 
     def try_login(self, username: str, password: str):
         pass
 
     def navigate_to(self):
-        pass
+        self.app.navigate_to(self.URL)
 
     # check functions
 
