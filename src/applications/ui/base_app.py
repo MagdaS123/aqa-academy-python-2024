@@ -1,5 +1,6 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 
 class BaseApp:
 
@@ -11,6 +12,7 @@ class BaseApp:
 
     def wait_and_click(self, locator, timeout=20):
         # read what is implicit and explisit waiters
+        self.browser.implicity.wait(timeout)
         elem = self.browser.find_element(By.XPATH, locator)
         elem.click()
 

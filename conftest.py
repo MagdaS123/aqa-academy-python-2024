@@ -16,7 +16,7 @@ def git_hub_ui_app():
     # 1. Prestep. Navigate to GihubAPP
 
     githubui_app = GitHubUI(browser=driver)
-    githubui_app.open()
+    #githubui_app.open()
 
     # generators in python
 
